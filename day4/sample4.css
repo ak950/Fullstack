@@ -1,0 +1,14 @@
+.a1{
+    border: 2px solid red;
+    text-align: center;
+}
+div:hover{
+    transform: rotateX(45deg);
+   transform: rotateY(150deg);
+   transform: rotateZ(25deg);
+    
+    
+    
+
+}
+

@@ -1,0 +1,18 @@
+.a1{
+    border
+    color: dimgray;
+    text-shadow: 2px,3px;
+    text-align: center;
+}
+.a2{
+    box-shadow: 2px,3px,4px,3px, darkcyan;
+    text-align: center;
+    color: red;
+    width: 300px;
+    height: 100%;
+    border: salmon;
+    border-width: 30px;
+    box-shadow: slateblue;
+
+}
+
