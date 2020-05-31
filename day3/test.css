@@ -1,0 +1,22 @@
+.a1{
+    text-align: center;
+    border-style:dotted;
+    border-width: 5px;
+    border-radius: 3px;
+    border-color: maroon;
+}
+.a2{
+    text-align: center;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 3px;
+    border-color: navy;
+}
+.a3{
+    border-top-color: orangered;
+    border-bottom: greenyellow;
+    border-style: groove;
+    border-right: groove;
+    border-width: 5px;
+    border-radius: 5px;
+}

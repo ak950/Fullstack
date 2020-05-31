@@ -1,0 +1,20 @@
+ul{
+    list-style-type: none;
+    border: 2px solid green;
+    background-color: grey;
+    
+}
+ul a{
+    display: inline-block;
+    color: indianred;
+    margin: 10px;
+    text-decoration: lawngreen;
+    font-size: 20px;
+    border: 3px solid green;
+
+
+}
+ul a:active{
+    color: goldenrod;
+
+}
