@@ -1,0 +1,52 @@
+.main{
+    display: inline-block;
+    border: 2px solid orangered;
+    background-color: darkolivegreen;
+    text-align: center;
+    width: 100%;
+}
+.logo1{
+    border: 2px solid darkred;
+    float: left;
+}
+.logo2{
+    border: 2px solid darkred;
+    float: right;
+}
+.name{
+    display: inline-block;
+    padding-top: 50px;
+    font-family: cursive;
+   font-style: italic;
+   font-size: x-large;
+   text-align: center;
+}
+.c{
+    text-align: center;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+a{
+    padding: 65px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+nav{
+   border: 2px solid orangered;
+    background-color: lightslategray;
+    width: 100%;
+    padding: 20px;
+    font-size: medium;
+}
+
+h1{
+    text-align: center;
+}

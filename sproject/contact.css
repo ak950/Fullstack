@@ -1,0 +1,32 @@
+.logo{
+    display: inline-block;
+    background-color:darkolivegreen;
+    width: 100%;
+}
+
+.navbar{
+    background-color: brown;
+    height: 50px;
+    padding-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    padding: 80px;
+}
+
+.hyd{
+    display: inline-block;
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 32%;
+    height: 350px;
+    text-decoration: darkslateblue;
+    color: firebrick;
+    background-color: grey;
+    
+}
