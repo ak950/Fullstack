@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="bxslider-4-4.2.12/src/js/jquery.bxslider.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.bxslider').bxSlider({
+            auto: true,
+            autoControls: true,
+            stopAutoOnClick: true,
+            pager: true,
+            slideWidth: 600
+        });
+    });
+</script>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+        width: 100%;
+        background-color: #555;
+        overflow: auto;
+    }
+
+    .navbar a {
+        float: left;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .navbar a:hover {
+        background-color: black;
+    }
+
+    .active {
+        background-color: green;
+    }
+
+    @media screen and (max-width: 500px) {
+        .navbar a {
+            float: none;
+            display: block;
+        }
+    }
+</style>
+
+<body>
+    <div class="container-fluid" style="background-color:lightslategray">
+
+        <h1 style="text-align: center; background-color: khaki; font-size: xx-large;" class="jumbotron">TRIAL NAVBAR
+        </h1>
+        <div class="container" style="background-color: lightcoral;">
+            <p  style="font-size: x-large; ">welcome! here are bootstrap
+                icons.</p>
+        </div>
+        <div class="navbar">
+            <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+            <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+            <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+        </div>
+        <div class="bxslider" >
+            <div><img
+                    src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    title="img1" style="height: 300px; width: 300px;"></div>
+            <div><img
+                    src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    title="img2" style="height: 300px; width: 300px;"></div>
+            <div><img
+                    src="https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    title="img3" style="height: 300px; width: 300px;"></div>
+        </div>
+    </div>
+
+</body>
+
+</htm>

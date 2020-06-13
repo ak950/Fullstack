@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SIMPLE SLIDE SHOW</title>
+    <link rel="StyleSheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css" />
+    <script type="text/javascript" src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap-4.5.0-dist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="bxslider-4-4.2.12\src\js\jquery.bxslider.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(".slider").bxslider({
+            mode:'fade',
+            captions:true,
+            
+            slidewidth:600,
+            slideHeight:400,
+        });
+    });
+    </script>
+    </head>
+    <body>
+        <div class="slider">
+            <div><img src="img.jpeg" title="img1" /></div>
+            <div><img src="2.jpeg" title="img2" /></div>
+            <div><img src="3." title="img3" /></div>
+            </div>
+    
+
+
+
+    </body>
+    </html>
+
