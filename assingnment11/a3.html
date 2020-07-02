@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo</title>
+        <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css"/>
+        <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+        <script src="bootstrap-4.5.0-dist/js/jquery.min.js"></script>
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
+        <script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css">
+        <script src="bxslider-4-4.2.12/src/js/jquery.bxslider.js"></script>
+        <script type="text/javascript">
+             $(document).ready(function(){
+                $('.slider').bxSlider({
+                    auto: true,
+                    autoControls: true,
+                    stopAutoOnClick: true,
+                    pager: true
+                });
+            }); 
+        </script>
+        <style>
+            #content{
+                background-color: brown;
+                height: 40px;
+            }
+            a{
+                color: white;
+                font-size: large;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="slider">
+                <div><img class="sp-image" src="1.jpeg" title="Img1" width="100%" alt="Background"/></div>
+                <div><img class="sp-image" src="2.jpeg" title="Img2" alt="Student" width="100%"/></div>
+                <div><img class="sp-image" src="3.jpeg" title="Img3" width="100%" alt="Students"/></div>
+                <div><img class="sp-image" src="4.jpeg" title="Img3" width="100%" alt="Students"/></div>
+            </div>
+        </div>
+    </body>
+</html>

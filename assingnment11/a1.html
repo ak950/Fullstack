@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Audio Player</title>
+        <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css"/>
+        <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container"><br>
+            <div class="row">
+                <div class="col-md-6">
+                    <audio controls src="Song1.mp3" id="playlist1" class="one"></audio>
+                </div>
+                <div class="col-md-5">
+                    <audio controls src="Song2.mp3" id="playlist2" class="two"></audio>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-md-6">
+                    <audio controls src="Song3.mp3" id="playlist3" class="three"></audio> 
+                </div>
+                
+            </div><br>
+            <div style="margin-left: 310px;">
+                <button type="button" class="btn btn-primary" onclick="playAudio()">Play</button>
+                <button type="button" class="btn btn-secondary" onclick="pauseAudio()">Pause</button> 
+                <button type="button" class="btn btn-primary" onclick="nextAudio()">Next</button>
+                <button type="button" class="btn btn-secondary" onclick="prevAudio()">Prev</button>
+            </div>
+        </div>
+        <script>
+            var playlist=document.getElementById("playlist1");
+            var num=1;
+            function playAudio(){
+                playlist.play();
+            }
+            function pauseAudio(){
+                playlist.pause();
+            }
+            function nextAudio(){
+                if(num==1)
+                {
+                    num=num+1;
+                    playlist.pause();
+                    playlist=document.getElementById("playlist2");
+                    playAudio();
+                }
+                else if(num==2){
+                    num=num+1;
+                    playlist.pause();
+                    playlist=document.getElementById("playlist3");
+                    playAudio();
+                }
+                else if(num==3){
+                    num=num+1;
+                    playlist.pause();
+                    playlist=document.getElementById("playlist4");
+                    playAudio();
+                }
+                else if(num==4){
+                    num=num+1;
+                    playlist.pause();
+                    playlist=document.getElementById("playlist5");
+                    playAudio();
+                }
+                else if(num==5){
+                    num=1;
+                    playlist.pause();
+                    playlist=document.getElementById("playlist1");
+                    playAudio();
+                }
+            }
+            function prevAudio(){
+                if(num==1){
+                    num=5;
+                    playlist.pause();
+                    playlist=document.getElementById("playlist5");
+                    playAudio();
+                }
+                else if(num==2){
+                    num=num-1;
+                    playlist.pause();
+                    playlist=document.getElementById("playlist1");
+                    playAudio();
+                }
+                else if(num==3){
+                    num=num-1;
+                    playlist.pause();
+                    playlist=document.getElementById("playlist2");
+                    playAudio();
+                }
+                else if(num==4){
+                    num=num-1;
+                    playlist.pause();
+                    playlist=document.getElementById("playlist3");
+                    playAudio();
+                }
+                else if(num==5){
+                    num=num-1;
+                    playlist.pause();
+                    playlist=document.getElementById("playlist4");
+                    playAudio();
+                }
+            }
+        </script>  
+    </body>
+</html>
